@@ -1,0 +1,25 @@
+h1{
+    color: rgb(77, 79, 83);
+}
+#time{
+    color: rgb(150, 141, 146);
+}
+a {
+    color: black;
+    text-decoration: none;/* 去掉下划线，保持默认文本 */
+    transition: color 0.1s ease; /* 添加过渡效果 */
+}
+a:hover {
+    color: red; /* 鼠标悬停时的颜色 */
+}
+p{
+     text-indent: 35px; /*设置首行缩进 */
+     line-height: 40px;/*设置行高 */
+}
+#last{
+    text-align: right;/*向右对齐 */
+}
+#center{
+    width: 65%;/* 占屏幕的65% */
+    margin: 0 auto; /*上 右 下 左*/
+}
